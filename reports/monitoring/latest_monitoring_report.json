@@ -1,0 +1,120 @@
+{
+  "generated_at_utc": "2026-06-21T09:18:53.307684+00:00",
+  "input_path": "abalone.csv",
+  "input_quality": {
+    "records": 4177,
+    "duplicate_rate": 0.0,
+    "missing_rate": {
+      "Sex": 0.0,
+      "Length": 0.0,
+      "Diameter": 0.0,
+      "Height": 0.0,
+      "Whole weight": 0.0,
+      "Shucked weight": 0.0,
+      "Viscera weight": 0.0,
+      "Shell weight": 0.0
+    },
+    "non_positive_measurements": {
+      "Length": 0,
+      "Diameter": 0,
+      "Height": 2,
+      "Whole weight": 0,
+      "Shucked weight": 0,
+      "Viscera weight": 0,
+      "Shell weight": 0
+    },
+    "unexpected_sex_values": 0
+  },
+  "drift": {
+    "overall_status": "ok",
+    "numeric": {
+      "Length": {
+        "psi": 0.00042517026178415875,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": -0.008158498447670807,
+        "status": "ok"
+      },
+      "Diameter": {
+        "psi": 0.0008354772507980115,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": -0.006456308743229991,
+        "status": "ok"
+      },
+      "Height": {
+        "psi": 0.0005609795176246462,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": -0.0064469028332602915,
+        "status": "ok"
+      },
+      "Whole weight": {
+        "psi": 0.0006443886123606063,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": -0.00426420480815338,
+        "status": "ok"
+      },
+      "Shucked weight": {
+        "psi": 0.00030159188974001043,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": -0.005349900613940122,
+        "status": "ok"
+      },
+      "Viscera weight": {
+        "psi": 0.00017563757219606234,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": -0.002180374789631168,
+        "status": "ok"
+      },
+      "Shell weight": {
+        "psi": 0.0005988590617687633,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": -0.006078805658550019,
+        "status": "ok"
+      },
+      "length_to_diameter": {
+        "psi": 0.00037702614052596123,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": -0.007506416017646141,
+        "status": "ok"
+      },
+      "whole_weight_per_length": {
+        "psi": 0.00029162162045938357,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": -0.00343157998002608,
+        "status": "ok"
+      },
+      "meat_yield": {
+        "psi": 0.0007890026288696814,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": 0.024436728886192426,
+        "status": "ok"
+      },
+      "shell_weight_ratio": {
+        "psi": 0.0006659364823383981,
+        "missing_rate": 0.0,
+        "mean_shift_standard_deviations": -0.0027543390346116544,
+        "status": "ok"
+      },
+      "condition_index": {
+        "psi": 0.0007923624409609553,
+        "missing_rate": 0.00047881254488867607,
+        "mean_shift_standard_deviations": 0.016102673250307672,
+        "status": "ok"
+      }
+    },
+    "categorical": {
+      "Sex": {
+        "total_variation_distance": 0.0004767344898450321,
+        "unseen_categories": [],
+        "missing_rate": 0.0,
+        "status": "ok"
+      }
+    }
+  },
+  "performance": {
+    "mae_years": 1.201185452056067,
+    "rmse_years": 1.7188319648640267,
+    "r2": 0.7157272545332612,
+    "bias_years": -0.006395767628654346,
+    "residual_std_years": 1.7190258506114002
+  }
+}

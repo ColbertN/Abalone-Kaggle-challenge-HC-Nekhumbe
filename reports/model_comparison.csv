@@ -1,0 +1,4 @@
+model,cv_rmse_years,cv_rmse_std_years,test_mae_years,test_rmse_years,test_r2,test_bias_years,test_residual_std_years,best_parameters
+extra_trees,2.0852738118709957,0.07371849614961107,1.4902537682021408,2.135606589208608,0.5786857266808523,-0.031955886824029237,2.1366457723955232,"{""model__max_depth"": 12, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 4, ""model__min_samples_split"": 10, ""model__n_estimators"": 150}"
+gradient_boosting,2.1038897208565217,0.07736692664924208,1.504311817245862,2.134420187463928,0.5791537053340474,-0.0622937070371584,2.134788132549379,"{""model__learning_rate"": 0.05, ""model__max_depth"": 2, ""model__min_samples_leaf"": 20, ""model__n_estimators"": 150, ""model__subsample"": 0.7}"
+dummy_mean,3.209241710866168,0.07529970422152454,2.3847700528020006,3.290622953710525,-0.00027614964665212405,-0.05467520396867128,3.2921382669877977,{}

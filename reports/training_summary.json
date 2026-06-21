@@ -1,0 +1,16 @@
+{
+  "best_model": "extra_trees",
+  "best_test_metrics": {
+    "mae_years": 1.4902537682021408,
+    "rmse_years": 2.135606589208608,
+    "r2": 0.5786857266808523,
+    "bias_years": -0.031955886824029237,
+    "residual_std_years": 2.1366457723955232
+  },
+  "search_iterations_per_model": 3,
+  "artifacts": {
+    "model": "C:\\Users\\Colbert Nekhumbe\\OneDrive\\Documents\\code lab\\Abalone-Kaggle-challenge-HC-Nekhumbe\\models\\best_model.joblib",
+    "comparison": "C:\\Users\\Colbert Nekhumbe\\OneDrive\\Documents\\code lab\\Abalone-Kaggle-challenge-HC-Nekhumbe\\reports\\model_comparison.csv",
+    "reference_profile": "C:\\Users\\Colbert Nekhumbe\\OneDrive\\Documents\\code lab\\Abalone-Kaggle-challenge-HC-Nekhumbe\\models\\reference_profile.json"
+  }
+}

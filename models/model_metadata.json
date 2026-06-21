@@ -1,0 +1,16 @@
+{
+  "model_name": "extra_trees",
+  "created_at_utc": "2026-06-21T09:17:05.740996+00:00",
+  "target": "Age in years (Rings + 1.5)",
+  "data_path": "C:\\Users\\Colbert Nekhumbe\\OneDrive\\Documents\\code lab\\Abalone-Kaggle-challenge-HC-Nekhumbe\\abalone.csv",
+  "train_records": 3341,
+  "test_records": 836,
+  "test_metrics": {
+    "mae_years": 1.4902537682021408,
+    "rmse_years": 2.135606589208608,
+    "r2": 0.5786857266808523,
+    "bias_years": -0.031955886824029237,
+    "residual_std_years": 2.1366457723955232
+  },
+  "approximate_95pct_interval_half_width_years": 4.187825713895226
+}

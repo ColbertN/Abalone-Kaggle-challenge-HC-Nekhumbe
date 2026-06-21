@@ -1,0 +1,4 @@
+rank_test_score,mean_cv_neg_rmse,std_cv_neg_rmse,mean_fit_time,params,mean_cv_rmse_years
+1,-2.1038897208565217,0.07736692664924208,1.629848559697469,"{'model__subsample': 0.7, 'model__n_estimators': 150, 'model__min_samples_leaf': 20, 'model__max_depth': 2, 'model__learning_rate': 0.05}",2.1038897208565217
+2,-2.1069818195874834,0.07271802477960487,2.1040732065836587,"{'model__subsample': 0.85, 'model__n_estimators': 200, 'model__min_samples_leaf': 20, 'model__max_depth': 2, 'model__learning_rate': 0.05}",2.1069818195874834
+3,-2.110406582914321,0.07940165032627214,1.462188482284546,"{'model__subsample': 0.7, 'model__n_estimators': 100, 'model__min_samples_leaf': 5, 'model__max_depth': 3, 'model__learning_rate': 0.1}",2.110406582914321

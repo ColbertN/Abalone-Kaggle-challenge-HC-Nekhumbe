@@ -1,0 +1,13 @@
+{
+  "input_path": "abalone.csv",
+  "output_path": "submissions\\abalone_predictions.csv",
+  "records_scored": 4177,
+  "prediction_interval": "Approximate 95% interval from held-out residual standard deviation.",
+  "labelled_batch_metrics": {
+    "mae_years": 1.201185452056067,
+    "rmse_years": 1.7188319648640267,
+    "r2": 0.7157272545332612,
+    "bias_years": -0.006395767628654346,
+    "residual_std_years": 1.7190258506114002
+  }
+}
