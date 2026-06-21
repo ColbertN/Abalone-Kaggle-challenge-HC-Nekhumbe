@@ -4,13 +4,13 @@ This project predicts abalone age in years (`Rings + 1.5`) from physical measure
 
 ## Project layout
 
-- `abalone.csv` — immutable source data (the scripts also support `data/raw/abalone.csv` when data is moved there).
-- `notebooks/abalone_modeling_original.ipynb` — the original exploratory notebook, retained for reference.
-- `src/abalone/` — reusable feature, modelling, evaluation, and monitoring code.
-- `scripts/` — commands for EDA, training, explanation, scoring, and monitoring.
-- `models/` — persisted selected model and its metadata/reference distribution.
-- `reports/figures/` — EDA, residual, comparison, and SHAP figures.
-- `reports/monitoring/` — monitoring outputs. The two report subfolders keep visuals and operational checks separate.
+- `abalone.csv` - immutable source data (the scripts also support `data/raw/abalone.csv` when data is moved there).
+- `notebooks/abalone_modeling_original.ipynb` - the original exploratory notebook, retained for reference.
+- `src/abalone/` - reusable feature, modelling, evaluation, and monitoring code.
+- `scripts/` - commands for EDA, training, explanation, scoring, and monitoring.
+- `models/` - persisted selected model and its metadata/reference distribution.
+- `reports/figures/` - EDA, residual, comparison, and SHAP figures.
+- `reports/monitoring/` - monitoring outputs. The two report subfolders keep visuals and operational checks separate.
 
 ## Run the workflow
 
@@ -24,5 +24,5 @@ python scripts/monitor_data.py --input abalone.csv
 
 `train_compare.py` uses a fixed hold-out test set and 3-fold cross-validated random search. It compares a dummy baseline with tuned extra-trees and gradient-boosting models, selecting by cross-validation RMSE and reporting the untouched hold-out result. Every feature transformation is fitted inside the pipeline, so validation data cannot influence training.
 
-The scoring script produces age predictions and an approximate 95% prediction interval based on held-out residual variation. Monitoring evaluates missingness, invalid values, numeric PSI, categorical distribution shift, and—when `Rings` is supplied—realised regression accuracy.
+The scoring script produces age predictions and an approximate 95% prediction interval based on held-out residual variation. Monitoring evaluates missingness, invalid values, numeric PSI, categorical distribution shift, and-when `Rings` is supplied-realised regression accuracy.
 # Machine-learning
